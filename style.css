@@ -1,0 +1,51 @@
+#kapsamlı{
+    background-color:powderblue;
+}
+#first_div{
+    border: 1px solid #f00;
+    width: 25%;   
+}
+#hr{
+    border: 1px solid solid;
+}
+#second_div {
+    text-align: left;
+    
+}
+label{
+    color: black;
+    margin-left: 5px;
+}
+input{
+    background-color: grey;
+    padding-right: 55%;
+    margin-left: 5px;
+}
+::placeholder{
+    color: white;
+}
+p {
+    color: red;
+    padding-bottom: 0;
+}
+#memnuniyet {
+    padding-right: 0;
+    
+}
+#commit {
+    background-color: grey;
+    margin-left: 5px;
+    width: 95%;
+    height: 80px;
+}
+#reset {
+    margin-left: 270px;
+    padding-right: 10px;
+}
+#submit{
+    margin-left: 10px;
+    padding-right: 10px;
+}
+input{
+    background-color: grey;
+}

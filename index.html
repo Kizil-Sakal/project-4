@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Değerlendirme Formu</title>
+  </head>
+  <body id="kapsamlı">
+    <form action="result.html">
+      <center id="form">
+        <div id="first_div">
+          <h1>Değerlendirme Formu</h1>
+
+          <div id="second_div">
+            <div>
+              <hr id="hr" />
+              <label for="number">Öğrenci Numaranız:</label>
+              <br />
+              <input type="text" id="number" placeholder="DXXXX" />
+              <hr />
+              <label for="name-surname">Adınız - Soyadınız</label>
+              <br />
+              <input
+                type="text"
+                id="name-surname"
+                placeholder="Lütfen isminizi giriniz...."
+              />
+              <hr />
+            </div>
+            <div>
+              <p>Hangi alanı seçmeyi düşünüyorsunuz:</p>
+              <input type="radio" name="fs" id="fs" />
+              <label for="fs">Full Stack</label>
+              <input type="radio" name="ds" id="ds" />
+              <label for="ds">Data Sciencce</label>
+              <input type="radio" name="aws" id="aws" />
+              <label for="aws">Aws&DevOps</label>
+              <hr />
+            </div>
+            <div>
+              <p>İngilizce Seviyeniz :</p>
+              <input type="radio" name="beginner" id="beginner" />
+              <label for="beginner">Beginner</label>
+              <input type="radio" name="orta" id="orta" />
+              <label for="orta">Intermediate</label>
+              <input type="radio" name="advenced" id="advenced" />
+              <label for="advenced">Advenced</label>
+              <hr />
+            </div>
+            <div>
+              <p>En Sevdiğiniz Dersler</p>
+              <input type="radio" name="html" id="html" />
+              <label for="html">HTML</label>
+              <input type="radio" name="python" id="python" />
+              <label for="python">PYTHON</label>
+              <input type="radio" name="linux" id="linux" />
+              <label for="linux">LINUX</label>
+              <input type="radio" name="css" id="css" />
+              <label for="css">CSS</label>
+              <hr />
+            </div>
+            <div>
+              <p style="margin-bottom: 0px; width: 70% ">
+                Aldığınız Eğitimden Memnuniyet Dereceniz: (betwwween 0 and 10)
+              </p>
+              <input type="range" name="memnuniyet" id="memnuniyet" min="0" max="10" >
+              <br>
+              <label for="country" style="color: red;">Bulunduğunuz Ülke :</label>
+              <br>
+              <input type="text" id="country" placeholder="Ülkenizi Giriniz...">
+              <br>
+              <label for="yas" style="padding-right: 0;">Yaşınızı Giriniz :</label>
+              <br>
+              <input type="text" id="yas" placeholder="Yaşınızı Giriniz..." style="padding-right: 5px;">
+              <hr>
+              <div>
+                <label for="commit" style="color: red;">Önerilerinizi Giriniz :</label> 
+                <br>
+                <textarea name="commit" id="commit" cols="30" rows="10" placeholder="Önerilerinizi buraya yazınız...."></textarea>
+              </div>
+              <input type="reset" value="Temizle" id="reset">
+              <input type="submit" value="Gönder" id="submit">
+            </div>
+          </div>
+        </div>
+      </center>
+    </form>
+  </body>
+</html>
